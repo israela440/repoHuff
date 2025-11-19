@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+header{
+    background-color:darkkhaki ;
+    color: azure;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+.logo{
+    border: 50px;
+    margin: 1px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: auto;
+    
+}
+body{
+    background-image: url("coffee.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.nav{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    border: 50px;
+    margin: 12px;
+    gap: 50px;
+    background-color: darkgoldenrod;
+    padding: 12px;
+    text-align: center;
+}
+main{
+    text-align: center;
+    padding: 50px;
+    background-color:chocolate;
+    color: bisque;
+}
+footer{
+    background-color: bisque;
+    width: 100%;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    
+}
+.titleF{
+    font-family: 'Lugrasimo', cursive;
+}
+a{
+    transition: background-color .5s ease, color 1s ease;
+}
+a:hover{
+    background-color:brown;
+    color: black;
+}
+label:hover{
+    cursor:pointer;
+}
+input:hover{
+    cursor:pointer;
+}
+.titleB{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: flex-end;
+    color: black;
+}
+.home1{
+    display: flex;
+    justify-content: space-around;
+}
+.home2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+.imgh{
+    transition: width 2s ease, height 2s ease;
+}
+.imgh:hover{
+    width: 440px;
+    height: auto;
+}
+dd{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.large{
+    font-size:x-large;
+}
+table{
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+.lisp{
+    text-align: center;
+}
+.lisp ul {
+    display: inline-block;
+    text-align: left;
+}
+ol {
+        display: inline-block;
+        text-align: left; 
+    }

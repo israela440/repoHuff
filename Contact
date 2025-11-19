@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Business, Business, Business. Numbers.</title>
+        <link rel="stylesheet" href="styleSheet.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <img src="myLogo.png" alt="logo" width="80">
+                <div class="nav">
+                    <a href="isThisWorking.html">Home</a>
+                    <a href="Products.html">Products</a>
+                    <a href="Imports.html">Imports</a>
+                    <a href="TheWhy.html">The Why</a>
+                    <a href="Contact">Contact Us</a>
+                </div>
+                <h2 class="titleB">
+                    The Birb Beans
+                </h2>
+            </div>
+            <h1 class="titleF">
+                CONTACT US
+            </h1>
+        </header>
+        <br>
+        <main>
+            <p>We'd Love to hear from you!</p>
+
+            <br>
+            <br>
+
+            Full Name:<input type="email" placeholder="Enter your name here">
+
+            <br>
+            <br>
+
+            Email:<input type="email" placeholder="email@gmail.com">
+
+            <br>
+
+            <p>What were your favorite products?</p>
+            <label><input type="checkbox">Roasted Coffee</label>
+            <label><input type="checkbox">Jewerly</label>
+            <label><input type="checkbox">Chocolate</label>
+            <label><input type="checkbox">Snacks</label>
+
+            <br>
+            
+            <p>How would you rate us?</p>
+            <label><input type="radio" name="choice" >☆</label>
+            <label><input type="radio" name="choice" >☆☆</label>
+            <label><input type="radio" name="choice" >☆☆☆</label>
+            <label><input type="radio" name="choice" >☆☆☆☆</label>
+            <label><input type="radio" name="choice" >☆☆☆☆☆</label>
+
+            <br>
+            <br>
+
+            <p>If you want to send us a message please do, we would love to know what we can do better!</p>
+            <textarea rows="8" cols="50"></textarea>
+
+        </main>
+
+        <footer>
+            <p>&copy Israel Aguila's Website</p>
+        </footer>
+    </body>
+
+</html>
